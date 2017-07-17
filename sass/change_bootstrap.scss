@@ -1,0 +1,64 @@
+.navbar {
+  background-color: blue;
+  background-image: url(../img/nav-bg.jpg);
+  background-position: center;
+  min-height: 600px;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+.navbar-header__link {
+  color: #ffffff;
+  font-family: Montserrat;
+  font-size: 25px;
+  text-transform: uppercase;
+  /* Text style for "SWIEZE" */
+  font-weight: 700;
+  /* Text style for "RYBY" */
+  font-weight: 400;
+  /* Text style for ".COM" */
+  font-weight: 200;
+}
+
+.navbar-nav__link {
+  color: #ffffff !important;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  &:hover {
+    border-bottom: 1px solid #ffffff;
+  }
+}
+
+.header {
+  &__title {
+    margin-top: 175px;
+    color: #ffffff !important;
+    font-family: Montserrat;
+    font-size: 79px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__text {
+    color: #ffffff !important;
+    font-family: Hind;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+.navbar .container-fluid {
+  padding-top: 25px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
